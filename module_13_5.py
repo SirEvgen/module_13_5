@@ -49,7 +49,7 @@ async def send_calories(message, state):
 
 @dp.message_handler(text = 'Информация')
 async def information(message):
-    await message.answer("Это бот для расчёта колорий")
+    await message.answer("Это бот для рассчёта колорий")
 
 @dp.message_handler()
 async def all_message(message):
